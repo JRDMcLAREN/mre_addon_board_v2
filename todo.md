@@ -5,4 +5,5 @@
 - replace LEDS D2 D3 on bottom side
 - replace EGT header on same side as WBO2 header
 - add silkscreen instruction for ChipSelect CS#
+- add silkscreen frame for BT module on bottom side
 - make marks for holes (for CAP on mre board)
