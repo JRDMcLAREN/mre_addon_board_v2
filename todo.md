@@ -1,0 +1,7 @@
+- fix footprint for MA31855KASA
+- fix footprint J15x for sdcard & move it up
+- replace C23 C24
+- replace LEDS D2 D3 on bottom side
+- replace EGT header on same side as WBO2 header
+- add silkscreen instruction for ChipSelect CS#
+- make marks for holes (for CAP on mre board)
