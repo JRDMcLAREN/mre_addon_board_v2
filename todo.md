@@ -1,5 +1,6 @@
 - fix footprint for MA31855KASA
 - fix footprint J15x for sdcard & move it up
+- fix program header pin order
 - replace C23 C24
 - replace LEDS D2 D3 on bottom side
 - replace EGT header on same side as WBO2 header
