@@ -13,4 +13,8 @@ Wideband controller require CAN bus connectivity and additional power supply for
 LSU 4.9 sensor wires are connected via MOLEX MicroFit 3x2 connector 43045-0601 or 43045-0612
 K-Thermocouple wires are connected via MOLEX MicroFit 2x1 connector 43045-0202 or 43045-0212
 
+SPI ChipSelect CS# pins:
+PA15 - for EGT chip
+PB9 - for microSD card
+
 ![mre_addon_board_v2](https://github.com/JRDMcLAREN/mre_addon_board_v2/blob/main/mre_addon_real.jpg)
