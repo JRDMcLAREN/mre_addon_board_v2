@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "MRE addon board V2- WBO2 & EGT & SD Card"
-Date "2021-11-26"
-Rev "V2.1"
+Date "2022-01-13"
+Rev "V2.3"
 Comp "by JRD McLAREN"
 Comment1 "STM32F072CBT6"
 Comment2 ""
@@ -76,9 +76,9 @@ Wire Wire Line
 	3400 1750 3050 1750
 Text Label 6800 1075 0    50   ~ 0
 LSU_Heater-
-Text Notes 8000 1375 2    50   ~ 0
+Text Notes 7950 1350 2    50   ~ 0
 white
-Text Notes 10725 1350 2    50   ~ 0
+Text Notes 10675 1325 2    50   ~ 0
 grey
 Text Label 4500 1425 2    50   ~ 0
 CAN_H
@@ -88,15 +88,15 @@ Wire Wire Line
 	4500 1525 4200 1525
 Wire Wire Line
 	4500 1425 4200 1425
-Text Notes 10575 1450 0    50   ~ 0
+Text Notes 10525 1425 0    50   ~ 0
 black
-Text Notes 8000 1475 2    50   ~ 0
+Text Notes 7950 1450 2    50   ~ 0
 green
-Text Notes 10575 1250 0    50   ~ 0
+Text Notes 10525 1225 0    50   ~ 0
 yellow
 Wire Wire Line
-	9550 1450 10100 1450
-Text Label 10100 1450 2    50   ~ 0
+	9500 1425 10050 1425
+Text Label 10050 1425 2    50   ~ 0
 LSU_Un
 $Comp
 L Device:C C23
@@ -159,131 +159,131 @@ Connection ~ 3050 1950
 Wire Wire Line
 	3050 1950 2825 1950
 $Comp
-L mre_addon_v2-rescue:Conn_Molex_02x03-wideband_controller_mre-rescue-wideband_controller_mre-rescue J10
+L mre_addon_v2-rescue:Conn_Molex_02x04-wideband_controller_mre-rescue-wideband_controller_mre-rescue J10
 U 1 1 6195B85F
-P 9250 1550
-F 0 "J10" H 9300 2065 50  0000 C CNN
-F 1 "Molex_Micro-Fit_3.0_43045-0601_43045-0612" H 9300 1974 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal" H 9250 1550 50  0001 C CNN
-F 3 "" H 9250 1550 50  0001 C CNN
-	1    9250 1550
+P 9200 1625
+F 0 "J10" H 9250 2140 50  0000 C CNN
+F 1 "Molex_Micro-Fit_3.0_43045-0800_43045-0812" H 9200 2225 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 9200 1625 50  0001 C CNN
+F 3 "" H 9200 1625 50  0001 C CNN
+	1    9200 1625
 	1    0    0    -1  
 $EndComp
 $Comp
 L mre_addon_v2-rescue:Conn_02x05_Odd_Even-Connector_Generic-wideband_controller_mre-rescue-wideband_controller_mre-rescue J20
 U 1 1 6195C7C5
-P 9300 2875
-F 0 "J20" H 9350 3390 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even-Connector_Generic" H 9350 3299 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 9300 2875 50  0001 C CNN
-F 3 "" H 9300 2875 50  0001 C CNN
-	1    9300 2875
+P 9250 3100
+F 0 "J20" H 9300 3615 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even-Connector_Generic" H 9300 3524 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 9250 3100 50  0001 C CNN
+F 3 "" H 9250 3100 50  0001 C CNN
+	1    9250 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 8000 1275 2    50   ~ 0
+Text Notes 7950 1250 2    50   ~ 0
 red
 Wire Wire Line
-	8500 1250 9050 1250
-Text Label 8500 1250 0    50   ~ 0
+	8450 1225 9000 1225
+Text Label 8450 1225 0    50   ~ 0
 LSU_Ip
-Text Label 9100 3550 2    50   ~ 0
+Text Label 9050 3775 2    50   ~ 0
 5V
-Text Label 9100 3650 2    50   ~ 0
+Text Label 9050 3875 2    50   ~ 0
 +3.3V
-Text Label 9100 3750 2    50   ~ 0
+Text Label 9050 3975 2    50   ~ 0
 SCK
-Text Label 9100 3850 2    50   ~ 0
+Text Label 9050 4075 2    50   ~ 0
 GND
-Text Label 9100 3950 2    50   ~ 0
+Text Label 9050 4175 2    50   ~ 0
 SWDIO
-Text Label 9600 3550 0    50   ~ 0
+Text Label 9550 3775 0    50   ~ 0
 5V
-Text Label 9600 3650 0    50   ~ 0
+Text Label 9550 3875 0    50   ~ 0
 +3.3V
-Text Label 9600 3750 0    50   ~ 0
+Text Label 9550 3975 0    50   ~ 0
 SWIM
-Text Label 9600 3850 0    50   ~ 0
+Text Label 9550 4075 0    50   ~ 0
 GND
-Text Label 9600 3950 0    50   ~ 0
+Text Label 9550 4175 0    50   ~ 0
 NRST
 $Comp
 L mre_addon_v2-rescue:GND-power-wideband_controller_mre-rescue-wideband_controller_mre-rescue #PWR0113
 U 1 1 61AA807B
-P 9975 4125
-F 0 "#PWR0113" H 9975 3875 50  0001 C CNN
-F 1 "GND-power" H 9980 3952 50  0001 C CNN
-F 2 "" H 9975 4125 50  0001 C CNN
-F 3 "" H 9975 4125 50  0001 C CNN
-	1    9975 4125
+P 9925 4350
+F 0 "#PWR0113" H 9925 4100 50  0001 C CNN
+F 1 "GND-power" H 9930 4177 50  0001 C CNN
+F 2 "" H 9925 4350 50  0001 C CNN
+F 3 "" H 9925 4350 50  0001 C CNN
+	1    9925 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L mre_addon_v2-rescue:GND-power-wideband_controller_mre-rescue-wideband_controller_mre-rescue #PWR0115
 U 1 1 61AA8570
-P 8800 4150
-F 0 "#PWR0115" H 8800 3900 50  0001 C CNN
-F 1 "GND-power" H 8805 3977 50  0001 C CNN
-F 2 "" H 8800 4150 50  0001 C CNN
-F 3 "" H 8800 4150 50  0001 C CNN
-	1    8800 4150
+P 8750 4375
+F 0 "#PWR0115" H 8750 4125 50  0001 C CNN
+F 1 "GND-power" H 8755 4202 50  0001 C CNN
+F 2 "" H 8750 4375 50  0001 C CNN
+F 3 "" H 8750 4375 50  0001 C CNN
+	1    8750 4375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 4150 8800 3850
+	8750 4375 8750 4075
 Wire Wire Line
-	8800 3850 9100 3850
+	8750 4075 9050 4075
 Wire Wire Line
-	9600 3850 9975 3850
+	9550 4075 9925 4075
 Wire Wire Line
-	9975 3850 9975 4125
-NoConn ~ 9600 3950
+	9925 4075 9925 4350
+NoConn ~ 9550 4175
 $Comp
 L Power:+5V #PWR0158
 U 1 1 61ABD4FA
-P 9975 3550
-F 0 "#PWR0158" H 9975 3400 50  0001 C CNN
-F 1 "+5V" V 9990 3678 50  0000 L CNN
-F 2 "" H 9975 3550 50  0001 C CNN
-F 3 "" H 9975 3550 50  0001 C CNN
-	1    9975 3550
+P 9925 3775
+F 0 "#PWR0158" H 9925 3625 50  0001 C CNN
+F 1 "+5V" V 9940 3903 50  0000 L CNN
+F 2 "" H 9925 3775 50  0001 C CNN
+F 3 "" H 9925 3775 50  0001 C CNN
+	1    9925 3775
 	0    1    1    0   
 $EndComp
 $Comp
 L Power:+5V #PWR0159
 U 1 1 61ABDC83
-P 8800 3550
-F 0 "#PWR0159" H 8800 3400 50  0001 C CNN
-F 1 "+5V" V 8815 3678 50  0000 L CNN
-F 2 "" H 8800 3550 50  0001 C CNN
-F 3 "" H 8800 3550 50  0001 C CNN
-	1    8800 3550
+P 8750 3775
+F 0 "#PWR0159" H 8750 3625 50  0001 C CNN
+F 1 "+5V" V 8765 3903 50  0000 L CNN
+F 2 "" H 8750 3775 50  0001 C CNN
+F 3 "" H 8750 3775 50  0001 C CNN
+	1    8750 3775
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Power:+3.3V #PWR0160
 U 1 1 61ABEC69
-P 8800 3650
-F 0 "#PWR0160" H 8800 3500 50  0001 C CNN
-F 1 "+3.3V" V 8815 3778 50  0000 L CNN
-F 2 "" H 8800 3650 50  0001 C CNN
-F 3 "" H 8800 3650 50  0001 C CNN
-	1    8800 3650
+P 8750 3875
+F 0 "#PWR0160" H 8750 3725 50  0001 C CNN
+F 1 "+3.3V" V 8765 4003 50  0000 L CNN
+F 2 "" H 8750 3875 50  0001 C CNN
+F 3 "" H 8750 3875 50  0001 C CNN
+	1    8750 3875
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8800 3550 9100 3550
+	8750 3775 9050 3775
 Wire Wire Line
-	8800 3650 9100 3650
+	8750 3875 9050 3875
 Wire Wire Line
-	9600 3550 9975 3550
+	9550 3775 9925 3775
 Wire Wire Line
-	9600 3650 9975 3650
-Text Label 9025 1900 2    50   ~ 0
+	9550 3875 9925 3875
+Text Label 8975 2125 2    50   ~ 0
 12V_MREL
-Text Label 9575 1900 0    50   ~ 0
+Text Label 9525 2125 0    50   ~ 0
 LSU_Heater+
 Wire Wire Line
-	9025 1900 9150 1900
+	8975 2125 9100 2125
 Text Label 5350 1400 0    50   ~ 0
 heater_pwm
 $Comp
@@ -413,9 +413,9 @@ Wire Wire Line
 	6800 1600 6800 1775
 Text GLabel 5350 1400 0    50   Input ~ 0
 heater_pwm
-Text GLabel 8500 1250 0    50   Input ~ 0
+Text GLabel 8450 1225 0    50   Input ~ 0
 LSU_Ip
-Text GLabel 10100 1450 2    50   Input ~ 0
+Text GLabel 10050 1425 2    50   Input ~ 0
 LSU_Un
 Text GLabel 5350 2800 0    50   Input ~ 0
 +5V
@@ -471,27 +471,27 @@ Wire Wire Line
 $Comp
 L Power:+3.3V #PWR0148
 U 1 1 61AC70D5
-P 9975 3650
-F 0 "#PWR0148" H 9975 3500 50  0001 C CNN
-F 1 "+3.3V" V 9990 3778 50  0000 L CNN
-F 2 "" H 9975 3650 50  0001 C CNN
-F 3 "" H 9975 3650 50  0001 C CNN
-	1    9975 3650
+P 9925 3875
+F 0 "#PWR0148" H 9925 3725 50  0001 C CNN
+F 1 "+3.3V" V 9940 4003 50  0000 L CNN
+F 2 "" H 9925 3875 50  0001 C CNN
+F 3 "" H 9925 3875 50  0001 C CNN
+	1    9925 3875
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Polyfuse F1
 U 1 1 61B7C0C0
-P 9300 1900
-F 0 "F1" V 9525 1900 50  0000 C CNN
-F 1 "Polyfuse 2A" V 9434 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 9350 1700 50  0001 L CNN
-F 3 "~" H 9300 1900 50  0001 C CNN
-	1    9300 1900
+P 9250 2125
+F 0 "F1" V 9475 2125 50  0000 C CNN
+F 1 "Polyfuse 2A" V 9384 2125 50  0000 C CNN
+F 2 "Resistor_SMD:R_2816_7142Metric" H 9300 1925 50  0001 L CNN
+F 3 "~" H 9250 2125 50  0001 C CNN
+	1    9250 2125
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9450 1900 9575 1900
+	9400 2125 9525 2125
 $Comp
 L Power:+3.3V #PWR0105
 U 1 1 61B95E7E
@@ -505,101 +505,101 @@ F 3 "" H 1825 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 2800 5675 2800
-Text Label 9600 2575 0    50   ~ 0
+Text Label 9550 2800 0    50   ~ 0
 5V
-Text Label 9600 2675 0    50   ~ 0
+Text Label 9550 2900 0    50   ~ 0
 PB8
-Text Label 9600 2775 0    50   ~ 0
+Text Label 9550 3000 0    50   ~ 0
 PC11
-Text Label 9600 2875 0    50   ~ 0
+Text Label 9550 3100 0    50   ~ 0
 PA15
-Text Label 9600 2975 0    50   ~ 0
+Text Label 9550 3200 0    50   ~ 0
 GND
-NoConn ~ 9600 2675
+NoConn ~ 9550 2900
 $Comp
 L Power:+5V #PWR0163
 U 1 1 61AC139C
-P 9900 2575
-F 0 "#PWR0163" H 9900 2425 50  0001 C CNN
-F 1 "+5V" V 9915 2703 50  0000 L CNN
-F 2 "" H 9900 2575 50  0001 C CNN
-F 3 "" H 9900 2575 50  0001 C CNN
-	1    9900 2575
+P 9850 2800
+F 0 "#PWR0163" H 9850 2650 50  0001 C CNN
+F 1 "+5V" V 9865 2928 50  0000 L CNN
+F 2 "" H 9850 2800 50  0001 C CNN
+F 3 "" H 9850 2800 50  0001 C CNN
+	1    9850 2800
 	0    1    -1   0   
 $EndComp
 $Comp
 L Power:GND #PWR0164
 U 1 1 61AC2547
-P 9900 3050
-F 0 "#PWR0164" H 9900 2800 50  0001 C CNN
-F 1 "GND" H 9905 2877 50  0000 C CNN
-F 2 "" H 9900 3050 50  0001 C CNN
-F 3 "" H 9900 3050 50  0001 C CNN
-	1    9900 3050
+P 9850 3275
+F 0 "#PWR0164" H 9850 3025 50  0001 C CNN
+F 1 "GND" H 9855 3102 50  0000 C CNN
+F 2 "" H 9850 3275 50  0001 C CNN
+F 3 "" H 9850 3275 50  0001 C CNN
+	1    9850 3275
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 3050 9900 2975
+	9850 3275 9850 3200
 Wire Wire Line
-	9900 2975 9600 2975
+	9850 3200 9550 3200
 Wire Wire Line
-	9900 2575 9600 2575
+	9850 2800 9550 2800
 $Comp
 L Power:+3.3V #PWR0161
 U 1 1 61AC8B36
-P 8875 2675
-F 0 "#PWR0161" H 8875 2525 50  0001 C CNN
-F 1 "+3.3V" V 8890 2803 50  0000 L CNN
-F 2 "" H 8875 2675 50  0001 C CNN
-F 3 "" H 8875 2675 50  0001 C CNN
-	1    8875 2675
+P 8825 2900
+F 0 "#PWR0161" H 8825 2750 50  0001 C CNN
+F 1 "+3.3V" V 8840 3028 50  0000 L CNN
+F 2 "" H 8825 2900 50  0001 C CNN
+F 3 "" H 8825 2900 50  0001 C CNN
+	1    8825 2900
 	0    -1   -1   0   
 $EndComp
-Text Label 9100 2975 2    50   ~ 0
+Text Label 9050 3200 2    50   ~ 0
 PC12
-Text Label 9100 2875 2    50   ~ 0
+Text Label 9050 3100 2    50   ~ 0
 PC10
-Text Label 9100 2775 2    50   ~ 0
+Text Label 9050 3000 2    50   ~ 0
 PB9
-Text Label 9100 2575 2    50   ~ 0
+Text Label 9050 2800 2    50   ~ 0
 12V_MREL
-Text Label 9100 2675 2    50   ~ 0
+Text Label 9050 2900 2    50   ~ 0
 +3.3V
 Wire Wire Line
-	9100 2675 8875 2675
-NoConn ~ 9600 3750
+	9050 2900 8825 2900
+NoConn ~ 9550 3975
 $Comp
 L mre_addon_v2-rescue:Conn_02x05_Odd_Even-Connector_Generic-wideband_controller_mre-rescue-wideband_controller_mre-rescue J30
 U 1 1 6195CEC3
-P 9300 3850
-F 0 "J30" H 9350 4365 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even-Connector_Generic" H 9350 4274 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 9300 3850 50  0001 C CNN
-F 3 "" H 9300 3850 50  0001 C CNN
-	1    9300 3850
+P 9250 4075
+F 0 "J30" H 9300 4590 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even-Connector_Generic" H 9300 4499 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 9250 4075 50  0001 C CNN
+F 3 "" H 9250 4075 50  0001 C CNN
+	1    9250 4075
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9100 3750
-NoConn ~ 9100 3950
+NoConn ~ 9050 3975
+NoConn ~ 9050 4175
 Wire Wire Line
-	9550 1350 10100 1350
-Text Label 10100 1350 2    50   ~ 0
+	9500 1325 10050 1325
+Text Label 10050 1325 2    50   ~ 0
 LSU_Heater+
-Text GLabel 10100 1250 2    50   Input ~ 0
+Text GLabel 10050 1225 2    50   Input ~ 0
 LSU_Vm
-Text Label 10100 1250 2    50   ~ 0
+Text Label 10050 1225 2    50   ~ 0
 LSU_Vm
 Wire Wire Line
-	9550 1250 10100 1250
-Text GLabel 8500 1450 0    50   Input ~ 0
+	9500 1225 10050 1225
+Text GLabel 8450 1425 0    50   Input ~ 0
 LSU_Rtrim
-Text Label 8500 1450 0    50   ~ 0
+Text Label 8450 1425 0    50   ~ 0
 LSU_Rtrim
 Wire Wire Line
-	9050 1450 8500 1450
+	9000 1425 8450 1425
 Wire Wire Line
-	8500 1350 9050 1350
-Text Label 8500 1350 0    50   ~ 0
+	8450 1325 9000 1325
+Text Label 8450 1325 0    50   ~ 0
 LSU_Heater-
 $Comp
 L mre_addon_v2-rescue:C-Device-micro_rusEFI-rescue-wideband_controller_mre-rescue C42
@@ -741,20 +741,20 @@ NoConn ~ 6175 4100
 $Comp
 L Device:C C1102
 U 1 1 4E13FFE2
-P 6850 4175
+P 3650 1825
 AR Path="/53BE1FC9/4E13FFE2" Ref="C1102"  Part="1" 
 AR Path="/53BF9BE2/4E13FFE2" Ref="C1202"  Part="1" 
 AR Path="/53BF9F6F/4E13FFE2" Ref="C1302"  Part="1" 
 AR Path="/4E13FFE2" Ref="C1102"  Part="1" 
 AR Path="/53BFED1D/4E13FFE2" Ref="C1402"  Part="1" 
 AR Path="/61A546DF/4E13FFE2" Ref="C26"  Part="1" 
-F 0 "C26" H 6900 4275 50  0000 L CNN
-F 1 "100nF" H 6900 4075 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" V 980 2975 60  0001 C CNN
-F 3 "" H 6850 4175 60  0001 C CNN
-F 4 "AVX,08055C104KAT2A" V 980 2975 60  0001 C CNN "MFG,MFG#"
-F 5 "DIGI,478-1395-1-ND" V 980 2975 60  0001 C CNN "VEND1,VEND1#"
-	1    6850 4175
+F 0 "C26" H 3700 1925 50  0000 L CNN
+F 1 "100nF" H 3700 1725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V -2220 625 60  0001 C CNN
+F 3 "" H 3650 1825 60  0001 C CNN
+F 4 "AVX,08055C104KAT2A" V -2220 625 60  0001 C CNN "MFG,MFG#"
+F 5 "DIGI,478-1395-1-ND" V -2220 625 60  0001 C CNN "VEND1,VEND1#"
+	1    3650 1825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -779,20 +779,20 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Female P1104
 U 1 1 535A15DB
-P 8500 4625
+P 9050 5150
 AR Path="/53BE1FC9/535A15DB" Ref="P1104"  Part="1" 
 AR Path="/53BF9BE2/535A15DB" Ref="P1204"  Part="1" 
 AR Path="/53BF9F6F/535A15DB" Ref="P1304"  Part="1" 
 AR Path="/535A15DB" Ref="J41"  Part="1" 
 AR Path="/53BFED1D/535A15DB" Ref="P1404"  Part="1" 
 AR Path="/61A546DF/535A15DB" Ref="J41"  Part="1" 
-F 0 "J41" H 8250 4750 40  0000 C CNN
-F 1 "CONN_Sparkfun" H 8250 4825 49  0000 C CNN
-F 2 "rusefi_lib:tcpl_PCC-SMP" H 8500 4625 60  0001 C CNN
-F 3 "" H 8500 4625 60  0000 C CNN
-F 4 "Sparkfun PRT-13612 " V 8500 4625 60  0001 C CNN "MFG,MFG#"
-F 5 "DIGI,1471-1067-ND" V 8500 4625 60  0001 C CNN "VEND1,VEND1#"
-	1    8500 4625
+F 0 "J41" H 8800 5275 40  0000 C CNN
+F 1 "CONN_Sparkfun" H 8800 5350 49  0000 C CNN
+F 2 "rusefi_lib:tcpl_PCC-SMP" H 9050 5150 60  0001 C CNN
+F 3 "" H 9050 5150 60  0000 C CNN
+F 4 "Sparkfun PRT-13612 " V 9050 5150 60  0001 C CNN "MFG,MFG#"
+F 5 "DIGI,1471-1067-ND" V 9050 5150 60  0001 C CNN "VEND1,VEND1#"
+	1    9050 5150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -808,17 +808,6 @@ Wire Wire Line
 Connection ~ 4600 3900
 Wire Wire Line
 	4600 3900 4825 3900
-$Comp
-L Connector:Conn_01x02_Male J40
-U 1 1 619B0EB3
-P 9375 4625
-F 0 "J40" H 9500 4750 50  0000 C CNN
-F 1 "CONN_Molex" H 9500 4850 49  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 9375 4625 50  0001 C CNN
-F 3 "~" H 9375 4625 50  0001 C CNN
-	1    9375 4625
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 4500 4600 4500
 Wire Wire Line
@@ -826,13 +815,13 @@ Wire Wire Line
 Connection ~ 4600 4500
 Wire Wire Line
 	4600 4500 4825 4500
-Text Label 9575 4725 0    50   ~ 0
+Text Label 9500 1525 0    50   ~ 0
 TCPL-
-Text Label 9575 4625 0    50   ~ 0
+Text Label 9000 1525 2    50   ~ 0
 TCPL+
-Text Label 8700 4725 0    50   ~ 0
+Text Label 9250 5250 0    50   ~ 0
 TCPL+
-Text Label 8700 4625 0    50   ~ 0
+Text Label 9250 5150 0    50   ~ 0
 TCPL-
 Text Label 6175 4200 0    50   ~ 0
 PC11
@@ -851,34 +840,34 @@ F 3 "" H 5075 4100 50  0001 C CNN
 	1    5075 4100
 	0    1    1    0   
 $EndComp
-Text Label 6850 4025 0    40   ~ 0
+Text Label 3650 1675 0    40   ~ 0
 +3.3V
 $Comp
 L Power:GND #PWR0169
 U 1 1 61A52A15
-P 6850 4325
-F 0 "#PWR0169" H 6850 4075 50  0001 C CNN
-F 1 "GND" H 6855 4152 50  0000 C CNN
-F 2 "" H 6850 4325 50  0001 C CNN
-F 3 "" H 6850 4325 50  0001 C CNN
-	1    6850 4325
+P 3650 1975
+F 0 "#PWR0169" H 3650 1725 50  0001 C CNN
+F 1 "GND" H 3655 1802 50  0000 C CNN
+F 2 "" H 3650 1975 50  0001 C CNN
+F 3 "" H 3650 1975 50  0001 C CNN
+	1    3650 1975
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J21
 U 1 1 619E5055
-P 9600 2150
-F 0 "J21" H 9628 2176 50  0000 L CNN
-F 1 "Soldering PAD for 12V_MREL" H 9628 2085 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 2150 50  0001 C CNN
-F 3 "~" H 9600 2150 50  0001 C CNN
-	1    9600 2150
+P 9550 2375
+F 0 "J21" H 9578 2401 50  0000 L CNN
+F 1 "Soldering PAD for 12V_MREL" H 9578 2310 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9550 2375 50  0001 C CNN
+F 3 "~" H 9550 2375 50  0001 C CNN
+	1    9550 2375
 	1    0    0    -1  
 $EndComp
-Text Label 9025 2150 2    50   ~ 0
+Text Label 8975 2375 2    50   ~ 0
 12V_MREL
 Wire Wire Line
-	9025 2150 9400 2150
+	8975 2375 9350 2375
 $Comp
 L mre_addon_v2-rescue:C-Device-micro_rusEFI-rescue-wideband_controller_mre-rescue C21
 U 1 1 61A01FB7
@@ -912,4 +901,36 @@ Wire Wire Line
 	4400 2275 4400 2200
 Text Label 4400 1725 2    50   ~ 10
 5V
+$Comp
+L Device:C C?
+U 1 1 61E12699
+P 6625 4175
+AR Path="/53BE1FC9/61E12699" Ref="C?"  Part="1" 
+AR Path="/53BF9BE2/61E12699" Ref="C?"  Part="1" 
+AR Path="/53BF9F6F/61E12699" Ref="C?"  Part="1" 
+AR Path="/61E12699" Ref="C?"  Part="1" 
+AR Path="/53BFED1D/61E12699" Ref="C?"  Part="1" 
+AR Path="/61A546DF/61E12699" Ref="C27"  Part="1" 
+F 0 "C27" H 6675 4275 50  0000 L CNN
+F 1 "100nF" H 6675 4075 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 755 2975 60  0001 C CNN
+F 3 "" H 6625 4175 60  0001 C CNN
+F 4 "AVX,08055C104KAT2A" V 755 2975 60  0001 C CNN "MFG,MFG#"
+F 5 "DIGI,478-1395-1-ND" V 755 2975 60  0001 C CNN "VEND1,VEND1#"
+	1    6625 4175
+	1    0    0    -1  
+$EndComp
+Text Label 6625 4025 0    40   ~ 0
++3.3V
+$Comp
+L Power:GND #PWR0175
+U 1 1 61E126A0
+P 6625 4325
+F 0 "#PWR0175" H 6625 4075 50  0001 C CNN
+F 1 "GND" H 6630 4152 50  0000 C CNN
+F 2 "" H 6625 4325 50  0001 C CNN
+F 3 "" H 6625 4325 50  0001 C CNN
+	1    6625 4325
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

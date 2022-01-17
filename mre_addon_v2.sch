@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "MRE addon board V2- WBO2 & EGT & SD Card"
-Date "2021-11-26"
-Rev "V2.1"
+Date "2022-01-13"
+Rev "V2.3"
 Comp "by JRD McLAREN"
 Comment1 "STM32F072CBT6"
 Comment2 ""

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name mre_addon_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/mre_addon_v2-rescue.lib)(options "")(descr ""))
+  (lib (name wideband_controller-rescue)(type Legacy)(uri /home/kocur/rusefi-hardware-main/wideband-F103/wideband_controller-rescue.lib)(options "")(descr ""))
 )
