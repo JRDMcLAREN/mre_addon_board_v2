@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "MRE addon board V2- WBO2 & EGT & SD Card")
-    (date 2022-01-16)
+    (date 2022-01-21)
     (rev V2.3)
     (company "by JRD McLAREN")
     (comment 1 STM32F072CBT6)

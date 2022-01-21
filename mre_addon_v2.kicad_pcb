@@ -1345,7 +1345,7 @@
     (fp_text user J12 (at -0.088 -11.969 180) (layer B.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
     )
-    (fp_text user SWIM (at -14.29258 -12.49926 270) (layer B.SilkS) hide
+    (fp_text user SWIM (at -14.29258 -12.49926 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
     )
     (fp_text user SWO/ (at -14.29258 -12.49926 270) (layer F.SilkS) hide
@@ -1362,13 +1362,13 @@
     (fp_text user GND (at -17.34058 -12.88026 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
     )
-    (fp_text user SCK (at -14.80058 -23.80226 270) (layer B.SilkS) hide
+    (fp_text user SCK (at -14.80058 -23.80226 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
     )
-    (fp_text user SWO/ (at -15.56258 -12.324 270) (layer B.SilkS) hide
+    (fp_text user SWO/ (at -15.56258 -12.324 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
     )
-    (fp_text user NRST (at -20.00758 -12.49926 270) (layer B.SilkS) hide
+    (fp_text user NRST (at -20.00758 -12.49926 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
     )
     (fp_text user 3.3V (at -12.26058 -23.92926 270) (layer B.SilkS)
@@ -1377,7 +1377,7 @@
     (fp_text user 5V (at -9.72058 -13.26126 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
     )
-    (fp_text user SWDIO (at -19.88058 -23.80226 270) (layer B.SilkS) hide
+    (fp_text user SWDIO (at -19.88058 -23.80226 270) (layer B.SilkS)
       (effects (font (size 0.508 0.508) (thickness 0.1016)) (justify mirror))
     )
     (fp_text user J30 (at -21.86178 -18.34126 90) (layer F.SilkS)
@@ -4669,10 +4669,10 @@
   (gr_text "TCPL\n+" (at 139.45 153.8) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.1875) italic))
   )
-  (gr_line (start 147.7 142.8) (end 141.05 142.8) (layer B.SilkS) (width 0.12) (tstamp 61975C54))
-  (gr_line (start 147.7 151.2) (end 147.7 142.8) (layer B.SilkS) (width 0.12))
+  (gr_line (start 147.7 142.2) (end 141.05 142.2) (layer B.SilkS) (width 0.12) (tstamp 61975C54))
+  (gr_line (start 147.7 151.2) (end 147.7 142.2) (layer B.SilkS) (width 0.12))
   (gr_line (start 141.05 151.2) (end 147.7 151.2) (layer B.SilkS) (width 0.12))
-  (gr_line (start 141.05 142.8) (end 141.05 151.2) (layer B.SilkS) (width 0.12))
+  (gr_line (start 141.05 142.2) (end 141.05 151.2) (layer B.SilkS) (width 0.12))
   (gr_text "Heater+\nGREY" (at 153.25 146.95) (layer B.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.1875) italic) (justify mirror))
   )
