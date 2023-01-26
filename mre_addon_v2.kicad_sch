@@ -757,6 +757,9 @@
     (path "/00000000-0000-0000-0000-000061a546df/b9c88f25-491f-4186-9408-7174947c23c8"
       (reference "R44") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000061a546df/cb96ce99-0c9f-4d67-a3ec-138dc7519b9b"
+      (reference "R45") (unit 1) (value "120") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-000061a542dd/00000000-0000-0000-0000-0000619e9d4b"
       (reference "U1") (unit 1) (value "STM32F072CBUx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
     )
