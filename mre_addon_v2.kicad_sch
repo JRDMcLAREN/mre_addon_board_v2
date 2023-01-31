@@ -6,7 +6,7 @@
 
   (title_block
     (title "MRE addon board V2- WBO2 & EGT & SD Card")
-    (date "2023-01-23")
+    (date "2023-01-31")
     (rev "V2.5")
     (company "by JRD McLAREN")
     (comment 1 "STM32F072CBT6")
@@ -743,7 +743,7 @@
       (reference "R39") (unit 1) (value "DNP (10k)") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061a546df/388dfd94-0e6b-4a6d-8988-2ef5bffb269f"
-      (reference "R40") (unit 1) (value "160k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R40") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061a546df/fe188061-3f94-41b0-a5f7-8d3e50339861"
       (reference "R41") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
