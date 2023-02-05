@@ -9,11 +9,8 @@ It can be used on all MREs with appropriate connector headers.
 
 Wideband controller requires 
 * CAN bus connectivity 
-
-**and**
-
-only for MRE verions pre R0.5.5rc! 
-* additional power supply from 12MREL pin for sensor heater.
+* additional power supply from 12V_MREL pin for sensor heater.
+(not required for "my" MRE versions - R0.5.5rc, R0.6.1rc)
 
 ~~LSU 4.9 sensor wires are connected via MOLEX MicroFit 3x2 connector 43045-0601 or 43045-0612
 K-Thermocouple wires are connected via MOLEX MicroFit 2x1 connector 43045-0202 or 43045-0212~~
