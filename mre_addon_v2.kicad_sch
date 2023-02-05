@@ -6,7 +6,7 @@
 
   (title_block
     (title "MRE addon board V2- WBO2 & EGT & SD Card")
-    (date "2023-01-31")
+    (date "2023-02-05")
     (rev "V2.5")
     (company "by JRD McLAREN")
     (comment 1 "STM32F072CBT6")
