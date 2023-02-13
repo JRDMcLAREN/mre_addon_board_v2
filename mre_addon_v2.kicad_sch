@@ -6,7 +6,7 @@
 
   (title_block
     (title "MRE addon board V2- WBO2 & EGT & SD Card")
-    (date "2023-02-05")
+    (date "2023-02-13")
     (rev "V2.5")
     (company "by JRD McLAREN")
     (comment 1 "STM32F072CBT6")
@@ -639,6 +639,42 @@
     )
     (path "/00000000-0000-0000-0000-000061a542dd/00000000-0000-0000-0000-000060a736f8"
       (reference "JP2") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/a4f0186a-35b8-49b5-920a-677a8d6691bb"
+      (reference "PA15") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/2d9f8222-7235-400f-98d9-2c1240f1af87"
+      (reference "PB0") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/675f4383-e1c4-4377-9bcc-2d2f33bbc51f"
+      (reference "PB3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/cca731e4-06b2-4160-9f43-79347786a694"
+      (reference "PB4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/1e0cb2b9-1ef7-4e7b-b173-e0423371c9c5"
+      (reference "PB8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/c913072c-382a-40ed-9302-e171a51e8972"
+      (reference "PB9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/088f3cb3-d3cb-4773-b63e-95ed0a509f41"
+      (reference "PB10") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/f37ef112-3597-41f3-97d3-a3e30749e9e9"
+      (reference "PB11") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/7aafb7ff-95ff-4287-804e-c4c6eabea8e2"
+      (reference "PB12") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/76937f66-f492-484b-8a1f-bc948f863055"
+      (reference "PB13") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/3f49f234-1593-4ff1-b637-3b3f35f034c8"
+      (reference "PB14") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061a542dd/bffa969b-1447-42a7-bff4-1ee39d9ed594"
+      (reference "PB15") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000061a546df/00000000-0000-0000-0000-000061b1b2a5"
       (reference "Q1") (unit 1) (value "BTS3028") (footprint "Package_TO_SOT_SMD:TO-252-2")

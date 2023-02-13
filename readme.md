@@ -2,7 +2,8 @@
 
 Addon board for microrusEFI ECU.
 Wideband controller wiring is based on https://github.com/mck1117/wideband, official rusEFI wideband controller.
-This is a version using STM32F072C8Tx or STM32F072CBTx MCU in LQFP48 package. (STM32F042C6T6 too, but not tested yet)
+This is a version using STM32F072C8Tx or STM32F072CBTx MCU in LQFP48 package.
+(STM32F042C6T6 is not recommended for future release)
 
 This addon board has build-in rusEFI wideband controller, microSD card slot and K-Thermocouple controller.
 It can be used on all MREs with appropriate connector headers.
